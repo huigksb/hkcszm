@@ -1,3 +1,10 @@
 site_name: 香港出生证明样本及办理指南：出世纸公证流程与所需时间
+
 theme:
-  name: material
+  name: mkdocs  # 临时换回原生内置主题，百分百不报错
+
+# 🎯 必须加上下面这两行！告诉系统你的 index.md 就在根目录，不用找 docs 文件夹
+docs_dir: '.'
+
+nav:
+  - 首页: index.md
